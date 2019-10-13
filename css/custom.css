@@ -1,0 +1,23 @@
+#content {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #66ffff;
+}
+
+.navbar-custom {
+    background-color: #FAF0E6;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: slategrey;
+}
+/* change the link color */
+.navbar-custom .nav .nav-link {
+    color: darkgrey;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: grey;
+}
