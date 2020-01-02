@@ -1,23 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
 #content {
     width: 400px;
     margin: 0 auto;
     background-color: #66ffff;
 }
 
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
 .navbar-custom {
     background-color: #FAF0E6;
 }
+
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
     color: slategrey;
 }
+
 /* change the link color */
 .navbar-custom .nav .nav-link {
     color: darkgrey;
 }
+
 /* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
     color: grey;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid white;
+    padding: 0;
+    width: 80%;
+    text-align:center; margin: 20px auto;
+}
+
+.u-custom {
+    border-bottom: 2px solid white;
 }
